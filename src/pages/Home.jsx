@@ -5,6 +5,10 @@ import Card from "../components/Home/Card/Card";
 import CardTime from "../components/Home/Card/CardTime";
 import Header from "../components/Home/Header";
 import ButtonNavigation from "../components/Home/ButtonNavigation";
+import Planos from "../components/Home/Planos";
+import Vantagens from "../components/Home/Vantagens";
+import Unidade from "../components/Home/Unidade";
+import Footer from "../components/Home/Footer";
 
 export default function Home() {
 
@@ -57,8 +61,21 @@ export default function Home() {
                         />
                     </div>
 
+                    <div className="w-full fade-in">
+                        <Planos/>
+                    </div>
+
+                    <div className="w-full fade-in">
+                        <Vantagens/>
+                    </div>
+
+
+
+
                 </div>
+                        <Unidade/>
             </div>
+            <Footer/>
         </>
     );
 }

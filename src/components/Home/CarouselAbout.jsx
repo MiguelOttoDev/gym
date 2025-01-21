@@ -39,10 +39,13 @@ const Carousel = () => {
         <div className="flex flex-col justify-start w-96 gap-2 ">
           <p className='text-2xl uppercase'>Nome de sua academia</p>
           <p className='text-lg font-normal text-justify'>A nossa academia foi criada para promover o bem-estar, a saúde e o desenvolvimento físico. Através de treinos focados na alta performance e no equilíbrio corporal, oferecemos um ambiente que une pessoas comprometidas com seus objetivos, proporcionando uma jornada de evolução contínua</p>
+          <a href="#Planos" className="">
           <button className="flex items-center text-xl justify-center gap-2 w-64  bg-blue-600  py-2 rounded-md hover:bg-blue-700 transition duration-300 group">
             Ver Planos
             <FaArrowRight className="transform -rotate-45 group-hover:rotate-0 transition duration-300" />
           </button>
+          </a>
+
         </div>
       </div>
     </div>

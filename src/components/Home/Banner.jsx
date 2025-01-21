@@ -14,7 +14,9 @@ export default function Banner() {
                 <p className='text-xl uppercase text-zinc-400 tracking-[0.4em]'>Bem-vindo(a)</p>
                 <h1 className='text-5xl font-semibold'>A <span className='text-blue-700'>transformação</span> começa <br /> com o primeiro passo.</h1>
                 <p className='text-xl font-semibold uppercase text-zinc-400 tracking-[0.2em]'>A cada treino, você fica <br /> mais perto do seu objetivo.</p>
+                <a href="#Planos">
                 <button className="text-xl font-semibold mx-auto border border-blue-700 px-14 py-3 rounded-md hover:bg-blue-700 transition duration-300 group w-auto max-w-max"> Adquira agora</button>
+                </a>
             </div>
         </div>
     );
