@@ -1,6 +1,8 @@
 import { FaArrowRight } from "react-icons/fa6";
 
 export default function Header() {
+
+
     return (
         <header className="fixed top-0 left-0 right-0 z-20 w-full shadow-md bg-zinc-950 flex items-center py-4 justify-around text-zinc-100 align-middle">
 
@@ -10,7 +12,7 @@ export default function Header() {
 
 
             <div className="flex gap-6 items-center text-xl font-semibold ">
-                <a href="" className="hover:text-blue-700 transition duration-300">Sobre</a>
+                <a href="#About" className="hover:text-blue-700 transition duration-300">Sobre</a>
                 <a href="" className="hover:text-blue-700 transition duration-300">Planos</a>
                 <a href="" className="hover:text-blue-700 transition duration-300">Vantagens</a>
                 <a href="" className="hover:text-blue-700 transition duration-300">Unidade</a>
