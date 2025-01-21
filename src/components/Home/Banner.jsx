@@ -2,7 +2,7 @@ import imgBanner from '../../assets/img/banner.jpg';
 
 export default function Banner() {
     return (
-        <div className="relative h-screen flex flex-col justify-center text-white mt-[64px]">
+        <div id='Home' className="relative h-screen flex flex-col justify-center text-white mt-[64px]">
             <div
                 className="absolute inset-0 bg-cover bg-center blur-sm"
                 style={{ backgroundImage: `url(${imgBanner})` }}

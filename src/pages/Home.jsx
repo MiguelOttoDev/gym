@@ -4,6 +4,7 @@ import Banner from "../components/Home/Banner";
 import Card from "../components/Home/Card/Card";
 import CardTime from "../components/Home/Card/CardTime";
 import Header from "../components/Home/Header";
+import ButtonNavigation from "../components/Home/ButtonNavigation";
 
 export default function Home() {
 
@@ -32,6 +33,7 @@ export default function Home() {
     return (
         <>
             <Header />
+            <ButtonNavigation/>
             <div className="flex flex-col gap-14">
                 <Banner />
                 
