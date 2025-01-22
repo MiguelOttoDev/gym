@@ -1,8 +1,7 @@
-import imgBanner from '../../assets/img/local.png';
+import imgUnidade from '../../assets/img/local.png';
 import InfoUnidade from './InfoUnidade';
 import { FaArrowRight } from "react-icons/fa6";
-import { IoLocationSharp } from "react-icons/io5";
-import { BsFillTelephoneFill } from "react-icons/bs";
+
 
 export default function Unidade() {
     return (
@@ -10,7 +9,7 @@ export default function Unidade() {
             {/* Imagem de fundo */}
             <div
                 className="absolute inset-0 bg-cover bg-center h-full"
-                style={{ backgroundImage: `url(${imgBanner})` }}
+                style={{ backgroundImage: `url(${imgUnidade})` }}
             ></div>
 
             {/* Card de informações */}

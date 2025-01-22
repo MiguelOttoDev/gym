@@ -4,7 +4,8 @@ export default function Vantagens() {
     return (
         <div id="Vantagens">
             <div className="flex flex-col md:flex-row  justify-between gap-8 px-6 py-12">
-                <div className="flex flex-col gap-2 max-w-lg">
+
+            <div className="flex flex-col gap-2 max-w-lg text-center md:text-left">
                     <p className="text-lg font-semibold uppercase text-blue-700 tracking-[0.2em]">Vantagens</p>
                     <p className="text-white text-3xl md:text-5xl font-bold leading-tight">
                     Conheça as nossas <br />
@@ -12,7 +13,9 @@ export default function Vantagens() {
                     </p>
                 </div>
 
-                <div className="max-w-lg flex flex-col items-start  gap-4">
+
+
+                <div className="max-w-lg flex flex-col items-center sm:items-start  gap-4">
                     <Vantagem vantagem="Profissionais Especializados" icone="GiMuscleUp" />
                     <div className="ml-6 w-px h-20 bg-zinc-700 "></div>
                     <Vantagem vantagem="Equipamentos Variados" icone="CgGym" />
